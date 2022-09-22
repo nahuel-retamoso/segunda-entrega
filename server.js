@@ -1,5 +1,4 @@
 const express = require('express');
-// importar index.js
 const { productos, carrito } = require('./daos/index.js');
 const { Router } = express
 
